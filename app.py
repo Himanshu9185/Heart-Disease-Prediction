@@ -78,8 +78,6 @@ def main():
             st.success("Prediction: {}".format(result))
     if st.button("About"):
         st.text("Developed by Himanshu Bhardwaj")
-        st.markdown("[Link to linkedin](https://www.linkedin.com/in/chahil-choudhary/)")
-
 
 if __name__ =='__main__':
     main()
