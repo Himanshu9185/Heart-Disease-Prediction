@@ -77,7 +77,7 @@ def main():
             result = predict_note_authentications(age, sex, chest_pain_type, resting_bp, cholestoral, fasting_blood_sugar, restecg, max_hr, exang, oldpeak, slope, num_major_vessels, thal)
             st.success("Prediction: {}".format(result))
     if st.button("About"):
-        st.text("Developed by chahil choudhary")
+        st.text("Developed by Himanshu Bhardwaj")
         st.markdown("[Link to linkedin](https://www.linkedin.com/in/chahil-choudhary/)")
 
 
